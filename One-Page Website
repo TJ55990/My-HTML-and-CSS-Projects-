@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+</head>
+<body>
 
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a> |
+    <a href="#images">Images</a> |
+    <a href="#video">Video</a> |
+    <a href="#contact">Contact</a>
+</nav>
+
+<hr>
+
+<!-- Home Section -->
+<h1 id="home">Welcome to My Webpage</h1>
+<p>This is my first webpage. It has a combination of images, videos, text and contact form</p>
+
+<hr>
+
+<!-- Images Section -->
+<h2 id="images">My Pictures</h2>
+<img src="image1.jpg" alt="Picture 1" width="250">
+<img src="image2.jpg" alt="Picture 2" width="250">
+<img src="image3.jpg" alt="Picture 3" width="250">
+<p>The images are for demonstartion purposes only</p>
+
+<hr>
+
+<!-- Video Section -->
+<h2 id="video">My Video</h2>
+<iframe width="400" height="225" src= "https://www.youtube.com/watch?v=4uTv7ZTpnvc" frameborder="0" allowfullscreen></iframe>
+<p>This is a sample video brought from from YouTube.</p>
+
+<hr>
+
+<!-- Contact Form Section -->
+<h2 id="contact">Contact Me</h2>
+<form>
+    Name:<br>
+    <input type="text" name="name"><br><br>
+
+    Email:<br>
+    <input type="email" name="email"><br><br>
+
+    Message:<br>
+    <textarea name="message" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 My First Website</p>
+</footer>
+
+</body>
+</html>
